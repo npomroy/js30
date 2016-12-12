@@ -6,4 +6,6 @@ Rails.application.routes.draw do
     resource :profile
   end
   get 'about', to: 'pages#about'
+  get 'challenges', to: 'challenges#index'
+  get 'challenges/1', to: 'challenges#challenge1'
 end
