@@ -19,7 +19,7 @@
  @import 'font-awesome';
  
 h1, h2, h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 //Gradient
@@ -37,8 +37,8 @@ h1, h2, h3 {
 }
 
 .navbar-brand {
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
+    font-family: 'Muli', sans-serif;
+    font-weight: 800;
 }
 
 .navbar-default .navbar-brand, 
@@ -59,6 +59,10 @@ h1, h2, h3 {
     &:hover, &:focus {
         background-color: #00c6ff;
     }
+}
+
+.yellow-30 {
+    color: #ffc600;
 }
 
 //Flash styles
