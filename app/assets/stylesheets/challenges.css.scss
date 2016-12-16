@@ -83,3 +83,30 @@
     //transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
   }
 }
+
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+  
+.challenge3 {
+  
+  img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+  }
+  
+  .h1 {
+    color: var(--base);
+  }
+  
+  .controls {
+    margin-bottom: 50px;
+  }
+  
+  input {
+    width: 100px;
+  }
+}

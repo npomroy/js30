@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   get 'challenges', to: 'challenges#index'
   get 'challenges/1', to: 'challenges#challenge1'
   get 'challenges/2', to: 'challenges#challenge2'
+  get 'challenges/3', to: 'challenges#challenge3'
 end
